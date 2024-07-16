@@ -6,12 +6,8 @@ export default function Header() {
             </a>
             <ul>
                 <li>
-                    <a href="/contact">
-                        Contact
-                    </a>
-                    <a href="/about">
-                        About
-                    </a>
+                    <a href="/contact">Contact</a>
+                    <a href="/about">About</a>
                 </li>
             </ul>
         </header>
