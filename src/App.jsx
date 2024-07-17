@@ -1,8 +1,9 @@
 // Importing Components
 import Header from "./Components/Header";
 import Home from "./Routes/Home";
-import Pricing from "./Routes/Pricing";
+import Shop from "./Routes/Shop";
 import About from "./Routes/About";
+import Contact from "./Routes/Contact";
 
 // Main Component
 const App = () => {
@@ -14,11 +15,14 @@ const App = () => {
             component = <Home />;
 
             break;
-        case "/pricing":
-            component = <Pricing />;
+        case "/shop":
+            component = <Shop />;
             break;
         case "/about":
             component = <About />;
+            break;
+        case "/contact":
+            component = <Contact />;
             break;
         default:
             break;
