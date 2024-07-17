@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <div className="navbar bg-base-100 shadow-2xl rounded-lg mt-5 mx-5">
+        <div className="navbar rounded-lg bg-base-100 shadow-2xl">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -27,14 +27,18 @@ export default function Header() {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li>
-                        <a href="about" className="text-2xl">About</a>
+                        <a href="about" className="text-2xl">
+                            درباره ما
+                        </a>
                     </li>
                     <li>
-                        <a href="contact" className="text-2xl">Contact us</a>
+                        <a href="contact" className="text-2xl">
+                            تماس با ما
+                        </a>
                     </li>
                     <li>
                         <details>
-                            <summary className="text-2xl">Shop</summary>
+                            <summary className="text-2xl">فروشگاه</summary>
                             <ul className="p-2 *:text-xl">
                                 <li>
                                     <a href="frontend">Front End</a>

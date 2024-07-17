@@ -4,6 +4,12 @@ import Home from "./Routes/Home";
 import Shop from "./Routes/Shop";
 import About from "./Routes/About";
 import Contact from "./Routes/Contact";
+import NotFound from "./Components/404";
+import Frontend from "./Routes/Frontend";
+import Backend from "./Routes/Backend";
+import Blockchain from "./Routes/Blockchain";
+import Cyber from "./Routes/Cyber";
+import Ai from "./Routes/Ai";
 
 // Main Component
 const App = () => {
@@ -23,6 +29,21 @@ const App = () => {
             break;
         case "/contact":
             component = <Contact />;
+            break;
+        case "/frontend":
+            component = <Frontend />;
+            break;
+        case "/backend":
+            component = <Backend />;
+            break;
+        case "/blockchain":
+            component = <Blockchain />;
+            break;
+        case "/cyber":
+            component = <Cyber />;
+            break;
+        case "/ai":
+            component = <Ai />;
             break;
         default:
             component = <NotFound />;

@@ -4,12 +4,12 @@
 
 @layer components {
     @font-face {
-        font-family: "Dana";
+        font-family: "Iransans";
         font-style: normal;
         font-weight: 400;
-        src: url("assets/Fonts/dana-regular.woff2") format("woff2");
+        src: url("assets/Fonts/font.woff2") format("woff2");
     }
     body {
-        font-family: "Dana";
+        font-family: "Iransans";
     }
 }
