@@ -25,6 +25,7 @@ const App = () => {
             component = <Contact />;
             break;
         default:
+            component = <NotFound />;
             break;
     }
 

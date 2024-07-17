@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 shadow-2xl rounded-lg mt-5 mx-5">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -19,22 +19,23 @@ export default function Header() {
                             />
                         </svg>
                     </div>
-                    <ul
-                        tabIndex={0}
-                        className="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-100 p-2 shadow"
-                    >
-                        <li>
-                            <a>Home</a>
-                        </li>
-                        <li>
-                            <a href="about">About</a>
-                        </li>
-                        <li>
-                            <a href="contact">Contact us</a>
-                        </li>
-                        <li>
-                            <a href="shop">Shop</a>
-                            <ul className="p-2">
+                </div>
+                <a className="btn btn-ghost text-3xl" href="/">
+                    Coursebazzar
+                </a>
+            </div>
+            <div className="navbar-center hidden lg:flex">
+                <ul className="menu menu-horizontal px-1">
+                    <li>
+                        <a href="about" className="text-2xl">About</a>
+                    </li>
+                    <li>
+                        <a href="contact" className="text-2xl">Contact us</a>
+                    </li>
+                    <li>
+                        <details>
+                            <summary className="text-2xl">Shop</summary>
+                            <ul className="p-2 *:text-xl">
                                 <li>
                                     <a href="frontend">Front End</a>
                                 </li>
@@ -60,36 +61,9 @@ export default function Header() {
                                     <a href="cybersecurity">Cyber Security</a>
                                 </li>
                             </ul>
-                        </li>
-                    </ul>
-                </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
-            </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
-                    <li>
-                        <a>Item 1</a>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Parent</summary>
-                            <ul className="p-2">
-                                <li>
-                                    <a>Submenu 1</a>
-                                </li>
-                                <li>
-                                    <a>Submenu 2</a>
-                                </li>
-                            </ul>
                         </details>
                     </li>
-                    <li>
-                        <a>Item 3</a>
-                    </li>
                 </ul>
-            </div>
-            <div className="navbar-end">
-                <a className="btn">Button</a>
             </div>
         </div>
     );
