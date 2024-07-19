@@ -1,5 +1,7 @@
+import AiList from "../Components/Lists/AiList";
+
 const Ai = () => {
-    return <div>Ai Courses</div>;
+    return <AiList />;
 };
 
 export default Ai;

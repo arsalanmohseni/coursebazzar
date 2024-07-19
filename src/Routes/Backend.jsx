@@ -1,7 +1,7 @@
-import React from "react";
+import BackendList from "../Components/Lists/BackendList";
 
 const Backend = () => {
-    return <div>Backend Courses</div>;
+    return <BackendList />;
 };
 
 export default Backend;

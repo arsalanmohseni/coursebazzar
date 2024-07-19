@@ -1,5 +1,7 @@
+import FrontendList from "../Components/Lists/FrontendList";
+
 const Frontend = () => {
-    return <div>Frontend Courses</div>;
+    return <FrontendList />;
 };
 
 export default Frontend;

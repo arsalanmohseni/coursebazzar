@@ -1,7 +1,7 @@
-import React from "react";
+import MobileList from "../Components/Lists/MobileList";
 
 const Mobile = () => {
-    return <div>Mobile Courses</div>;
+    return <MobileList />;
 };
 
 export default Mobile;

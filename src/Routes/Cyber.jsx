@@ -1,5 +1,7 @@
+import CyberList from "../Components/Lists/CyberList";
+
 const Cyber = () => {
-    return <div>Cyber Courses</div>;
+    return <CyberList />;
 };
 
 export default Cyber;

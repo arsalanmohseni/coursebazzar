@@ -1,6 +1,6 @@
-export default function Header() {
+const Header = () => {
     return (
-        <div className="navbar rounded-lg bg-base-100 shadow-2xl">
+        <div className="navbar relative z-30 bg-base-100 shadow-2xl *:z-30">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -19,56 +19,124 @@ export default function Header() {
                             />
                         </svg>
                     </div>
+                    <ul
+                        tabIndex={0}
+                        className="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-100 p-2"
+                    >
+                        <li>
+                            <a href="/blog" className="text-2xl">
+                                وبلاگ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="store" className="text-2xl">
+                                فروشگاه
+                            </a>
+                            <ul className="p-2 shadow-2xl *:text-xl">
+                                <li>
+                                    <a href="/frontend">Frontend</a>
+                                </li>
+                                <li>
+                                    <a href="/backend">Backend</a>
+                                </li>
+                                <li>
+                                    <a href="/fullstack">Fullstack</a>
+                                </li>
+                                <li>
+                                    <a href="/mobile">برنامه نویسی موبایل</a>
+                                </li>
+                                <li>
+                                    <a href="/desktop">برنامه نویسی دسکتاپ</a>
+                                </li>
+                                <li>
+                                    <a href="/ai">هوش مصنوعی</a>
+                                </li>
+                                <li>
+                                    <a href="/cybersecurity">هک و امنیت</a>
+                                </li>
+                                <li>
+                                    <a href="/ui">طراحی UI\UX</a>
+                                </li>
+                                <li>
+                                    <a href="/blockchain">بلاک چین</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="about" className="text-2xl">
+                                درباره ما
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/contact" className="text-2xl">
+                                تماس با ما
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <a className="btn btn-ghost text-3xl" href="/">
-                    Coursebazzar
+                <a href="/" className="btn btn-ghost text-3xl">
+                    CourseBazzar
                 </a>
             </div>
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-center hidden shadow-2xl lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li>
-                        <a href="about" className="text-2xl">
-                            درباره ما
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contact" className="text-2xl">
-                            تماس با ما
+                        <a href="/blog" className="text-2xl">
+                            وبلاگ
                         </a>
                     </li>
                     <li>
                         <details>
-                            <summary className="text-2xl">فروشگاه</summary>
-                            <ul className="p-2 *:text-xl">
+                            <summary>
+                                <a href="/store" className="text-2xl">
+                                    فروشگاه
+                                </a>
+                            </summary>
+                            <ul className="w-56 p-2 shadow-2xl *:text-xl">
                                 <li>
-                                    <a href="frontend">Front End</a>
+                                    <a href="/frontend">Frontend</a>
                                 </li>
                                 <li>
-                                    <a href="backend">Back End</a>
+                                    <a href="/backend">Backend</a>
                                 </li>
                                 <li>
-                                    <a href="fullstack">Full Stack</a>
+                                    <a href="/fullstack">Fullstack</a>
                                 </li>
                                 <li>
-                                    <a href="mobile">Mobile</a>
+                                    <a href="/mobile">برنامه نویسی موبایل</a>
                                 </li>
                                 <li>
-                                    <a href="webdev">Web Development</a>
+                                    <a href="/desktop">برنامه نویسی دسکتاپ</a>
                                 </li>
                                 <li>
-                                    <a href="ai">AI</a>
+                                    <a href="/ai">هوش مصنوعی</a>
                                 </li>
                                 <li>
-                                    <a href="blockchain">Blockchain</a>
+                                    <a href="/cybersecurity">هک و امنیت</a>
                                 </li>
                                 <li>
-                                    <a href="cybersecurity">Cyber Security</a>
+                                    <a href="/ui">طراحی UI\UX</a>
+                                </li>
+                                <li>
+                                    <a href="/blockchain">بلاک چین</a>
                                 </li>
                             </ul>
                         </details>
+                    </li>
+                    <li>
+                        <a href="/about" className="text-2xl">
+                            درباره ما
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/contact" className="text-2xl">
+                            تماس با ما
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
     );
-}
+};
+
+export default Header;

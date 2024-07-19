@@ -1,7 +1,7 @@
 // Importing Components
 import Header from "./Components/Header";
 import Home from "./Routes/Home";
-import Shop from "./Routes/Shop";
+import Store from "./Routes/Store";
 import About from "./Routes/About";
 import Contact from "./Routes/Contact";
 import NotFound from "./Components/404";
@@ -10,6 +10,10 @@ import Backend from "./Routes/Backend";
 import Blockchain from "./Routes/Blockchain";
 import Cyber from "./Routes/Cyber";
 import Ai from "./Routes/Ai";
+import Mobile from "./Routes/Mobile";
+import Ui from "./Routes/Ui";
+import Desktop from "./Routes/Desktop";
+import Blog from "./Routes/Blog";
 
 // Main Component
 const App = () => {
@@ -20,9 +24,6 @@ const App = () => {
         case "/":
             component = <Home />;
 
-            break;
-        case "/shop":
-            component = <Shop />;
             break;
         case "/about":
             component = <About />;
@@ -44,6 +45,21 @@ const App = () => {
             break;
         case "/ai":
             component = <Ai />;
+            break;
+        case "/mobile":
+            component = <Mobile />;
+            break;
+        case "/blog":
+            component = <Blog />;
+            break;
+        case "/desktop":
+            component = <Desktop />;
+            break;
+        case "/ui":
+            component = <Ui />;
+            break;
+        case "/store":
+            component = <Store />;
             break;
         default:
             component = <NotFound />;

@@ -1,5 +1,7 @@
+import BlockchainList from "../Components/Lists/BlockchainList";
+
 const Blockchain = () => {
-    return <div>Blockchain Courses</div>;
+    return <BlockchainList />;
 };
 
 export default Blockchain;
