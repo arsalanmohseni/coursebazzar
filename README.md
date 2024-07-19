@@ -12,13 +12,13 @@ CourseBazzar is an online platform that sells courses for programmers. Whether y
 
 ## Usage
 
-- Visit the CourseBazzar website.
-- Inspect it to learn how it works
+-   Visit the CourseBazzar website.
+-   Inspect it to learn how it works
 
 ## Features
 
-- Responsive design for all devices.
-- A very good website for react developers to learn react
+-   Responsive design for all devices.
+-   A very good website for react developers to learn react
 
 ## Contributing
 

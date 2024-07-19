@@ -13,7 +13,8 @@ const NotFound = () => {
                             Cannot find this page
                         </p>
                         <p className="mb-4 text-lg font-light text-gray-500 dark:text-gray-400">
-                            We could not find this page carefully, and you can use the button below to return to the main page
+                            We could not find this page carefully, and you can use the button below to return to the
+                            main page
                         </p>
                         <a
                             href="/"
