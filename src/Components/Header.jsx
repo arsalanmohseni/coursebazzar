@@ -130,7 +130,7 @@ const Header = () => {
                     </li>
                     <li>
                         <a href="/contact" className="text-2xl">
-                            giContact
+                            Contact
                         </a>
                     </li>
                 </ul>

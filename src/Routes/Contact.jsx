@@ -1,5 +1,3 @@
-import Footer from "../components/Footer";
-
 const Contact = () => {
     return (
         <div>
@@ -11,7 +9,6 @@ const Contact = () => {
                 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                 deserunt mollit anim id est laborum.
             </p>
-            <Footer />
         </div>
     );
 };
