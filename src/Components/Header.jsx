@@ -52,7 +52,7 @@ const Header = () => {
                                     <a href="/ai">هوش مصنوعی</a>
                                 </li>
                                 <li>
-                                    <a href="/cybersecurity">هک و امنیت</a>
+                                    <a href="/cyber">هک و امنیت</a>
                                 </li>
                                 <li>
                                     <a href="/ui">طراحی UI\UX</a>
@@ -112,7 +112,7 @@ const Header = () => {
                                     <a href="/ai">هوش مصنوعی</a>
                                 </li>
                                 <li>
-                                    <a href="/cybersecurity">هک و امنیت</a>
+                                    <a href="/cyber">هک و امنیت</a>
                                 </li>
                                 <li>
                                     <a href="/ui">طراحی UI\UX</a>
