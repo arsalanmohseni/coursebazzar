@@ -4,7 +4,7 @@ import Home from "./Routes/Home";
 import Store from "./Routes/Store";
 import About from "./Routes/About";
 import Contact from "./Routes/Contact";
-import NotFound from "./Components/404";
+import NotFound from "./Components/NotFound";
 import Frontend from "./Routes/Frontend";
 import Backend from "./Routes/Backend";
 import Blockchain from "./Routes/Blockchain";

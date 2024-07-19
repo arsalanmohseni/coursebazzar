@@ -25,12 +25,12 @@ const Header = () => {
                     >
                         <li>
                             <a href="/blog" className="text-2xl">
-                                وبلاگ
+                                Blog
                             </a>
                         </li>
                         <li>
                             <a href="store" className="text-2xl">
-                                فروشگاه
+                                Store
                             </a>
                             <ul className="p-2 shadow-2xl *:text-xl">
                                 <li>
@@ -43,33 +43,33 @@ const Header = () => {
                                     <a href="/fullstack">Fullstack</a>
                                 </li>
                                 <li>
-                                    <a href="/mobile">برنامه نویسی موبایل</a>
+                                    <a href="/mobile">Mobile</a>
                                 </li>
                                 <li>
-                                    <a href="/desktop">برنامه نویسی دسکتاپ</a>
+                                    <a href="/desktop">Desktop</a>
                                 </li>
                                 <li>
-                                    <a href="/ai">هوش مصنوعی</a>
+                                    <a href="/ai">AI</a>
                                 </li>
                                 <li>
-                                    <a href="/cyber">هک و امنیت</a>
+                                    <a href="/cyber">Cybersecurity</a>
                                 </li>
                                 <li>
-                                    <a href="/ui">طراحی UI\UX</a>
+                                    <a href="/ui">UI\UX</a>
                                 </li>
                                 <li>
-                                    <a href="/blockchain">بلاک چین</a>
+                                    <a href="/blockchain">Blockchain</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
                             <a href="about" className="text-2xl">
-                                درباره ما
+                                About
                             </a>
                         </li>
                         <li>
                             <a href="/contact" className="text-2xl">
-                                تماس با ما
+                                Contact
                             </a>
                         </li>
                     </ul>
@@ -82,14 +82,14 @@ const Header = () => {
                 <ul className="menu menu-horizontal px-1">
                     <li>
                         <a href="/blog" className="text-2xl">
-                            وبلاگ
+                            Blog
                         </a>
                     </li>
                     <li>
                         <details>
                             <summary>
                                 <a href="/store" className="text-2xl">
-                                    فروشگاه
+                                    Store
                                 </a>
                             </summary>
                             <ul className="w-56 p-2 shadow-2xl *:text-xl">
@@ -103,34 +103,34 @@ const Header = () => {
                                     <a href="/fullstack">Fullstack</a>
                                 </li>
                                 <li>
-                                    <a href="/mobile">برنامه نویسی موبایل</a>
+                                    <a href="/mobile">Mobile</a>
                                 </li>
                                 <li>
-                                    <a href="/desktop">برنامه نویسی دسکتاپ</a>
+                                    <a href="/desktop">Desktop</a>
                                 </li>
                                 <li>
-                                    <a href="/ai">هوش مصنوعی</a>
+                                    <a href="/ai">AI</a>
                                 </li>
                                 <li>
-                                    <a href="/cyber">هک و امنیت</a>
+                                    <a href="/cyber">Cybersecurity</a>
                                 </li>
                                 <li>
-                                    <a href="/ui">طراحی UI\UX</a>
+                                    <a href="/ui">UI\UX</a>
                                 </li>
                                 <li>
-                                    <a href="/blockchain">بلاک چین</a>
+                                    <a href="/blockchain">Blockchain</a>
                                 </li>
                             </ul>
                         </details>
                     </li>
                     <li>
                         <a href="/about" className="text-2xl">
-                            درباره ما
+                            About
                         </a>
                     </li>
                     <li>
                         <a href="/contact" className="text-2xl">
-                            تماس با ما
+                            giContact
                         </a>
                     </li>
                 </ul>

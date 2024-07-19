@@ -1,7 +1,13 @@
 import CyberList from "../Components/Lists/CyberList";
+import Footer from "../Components/Footer";
 
 const Cyber = () => {
-    return <CyberList />;
+    return (
+        <div>
+            <CyberList />
+            <Footer />
+        </div>
+    );
 };
 
 export default Cyber;

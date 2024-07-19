@@ -1,7 +1,13 @@
 import BlockchainList from "../Components/Lists/BlockchainList";
+import Footer from "../Components/Footer";
 
 const Blockchain = () => {
-    return <BlockchainList />;
+    return (
+        <div>
+            <BlockchainList />
+            <Footer />
+        </div>
+    );
 };
 
 export default Blockchain;

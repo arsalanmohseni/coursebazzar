@@ -1,7 +1,13 @@
+import Footer from "../Components/Footer";
 import BackendList from "../Components/Lists/BackendList";
 
 const Backend = () => {
-    return <BackendList />;
+    return (
+        <div>
+            <BackendList />
+            <Footer />
+        </div>
+    );
 };
 
 export default Backend;
