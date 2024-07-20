@@ -14,6 +14,7 @@ import Mobile from "./Routes/Mobile";
 import Ui from "./Routes/Ui";
 import Desktop from "./Routes/Desktop";
 import Blog from "./Routes/Blog";
+import Footer from "./Components/Footer";
 
 // Main Component
 const App = () => {
@@ -70,6 +71,7 @@ const App = () => {
         <div>
             <Header />
             {component}
+            <Footer />
         </div>
     );
 };
