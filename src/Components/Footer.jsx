@@ -27,7 +27,7 @@ const items = [
 
 const Footer = () => {
     return (
-        <div className="py-y mt-24 w-full bg-slate-900 px-2 text-gray-300">
+        <div className="py-y b-0 mb-0 mt-96 w-full bg-slate-900 px-2 text-gray-300">
             <div className="mx-auto grid max-w-[1240px] grid-cols-2 border-b-2 border-gray-600 py-8 md:grid-cols-6">
                 {sections.map((section, index) => (
                     <div key={index}>
