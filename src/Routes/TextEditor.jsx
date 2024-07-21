@@ -1,34 +1,28 @@
-// TextEditor.js
-import { useRef, useEffect } from "react";
-import Quill from "quill";
-import "quill/dist/quill.snow.css"; // Import Quill styles
+import { useState } from "react";
+import ReactMarkdown from "react-markdown";
 
 const TextEditor = () => {
-    const editorRef = useRef(null);
+    const [text, setText] = useState("");
 
-    useEffect(() => {
-        if (editorRef.current) {
-            new Quill(editorRef.current, {
-                theme: "snow", // Snow theme for a clean interface
-                modules: {
-                    toolbar: [
-                        [{ header: "1" }, { header: "2" }],
-                        ["bold", "italic", "underline", "strike"],
-                        [{ list: "ordered" }, { list: "bullet" }],
-                        ["link", "image"],
-                        ["clean"],
-                    ],
-                },
-            });
-        }
-    }, []);
+    const handleTextChange = (e) => {
+        setText(e.target.value);
+    };
 
     return (
-        <div>
-            <div ref={editorRef} style={{ height: "400px" }} />
-            <button className="bg-blue-500 text-white p-2 rounded-full">Publish</button>
+        <div className="flex min-h-screen items-center justify-center bg-gray-100 dark:bg-gray-900">
+            <div className="mx-auto max-w-md rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
+                <textarea
+                    value={text}
+                    onChange={handleTextChange}
+                    placeholder="Start typing Markdown..."
+                    className="h-40 w-full rounded-md border p-2 focus:border-blue-300 focus:outline-none focus:ring"
+                />
+                <div className="mt-4">
+                    <ReactMarkdown>{text}</ReactMarkdown>
+                </div>
+            </div>
         </div>
     );
-}
+};
 
 export default TextEditor;

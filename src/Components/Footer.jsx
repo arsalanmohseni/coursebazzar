@@ -46,8 +46,16 @@ const Footer = () => {
                     <p className="font-bold uppercase">Subscribe to our newsletter</p>
                     <p className="py-4">The latest news, articles, and resources, sent to your inbox weekly.</p>
                     <form className="flex flex-col sm:flex-row">
-                        <input className="mb-4 mr-4 w-full rounded-md p-2" type="email" placeholder="Enter email.." />
-                        <button className="mb-4 p-2">Subscribe</button>
+                        <input
+                            className="mb-4 mr-4 w-full rounded-full p-2 ring-offset-4 transition-all ease-in-out hover:scale-105 focus:ring-4 focus:ring-blue-600"
+                            type="email"
+                            placeholder="Enter email.."
+                        />
+                        <a href="/#" className="decoration-none text-white">
+                            <button className="mb-4 scale-100 rounded-full bg-blue-600 p-2 text-white ring-offset-4 transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-2xl focus:ring-4 focus:ring-blue-600">
+                                Subscribe
+                            </button>
+                        </a>
                     </form>
                 </div>
             </div>
