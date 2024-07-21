@@ -14,6 +14,7 @@ import Mobile from "./Routes/Mobile";
 import Ui from "./Routes/Ui";
 import Desktop from "./Routes/Desktop";
 import Blog from "./Routes/Blog";
+import TextEditor from "./Routes/TextEditor";
 import Footer from "./Components/Footer";
 
 // Main Component
@@ -61,6 +62,9 @@ const App = () => {
             break;
         case "/store":
             component = <Store />;
+            break;
+        case "/texteditor":
+            component = <TextEditor />;
             break;
         default:
             component = <NotFound />;
