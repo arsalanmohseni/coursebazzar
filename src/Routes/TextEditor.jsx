@@ -17,7 +17,7 @@ const TextEditor = () => {
                     placeholder="Start typing Markdown..."
                     className="h-40 w-full rounded-md border p-2 focus:border-blue-300 focus:outline-none focus:ring"
                 />
-                <div className="mt-4">
+                <div className="mt-4 text-warp">
                     <ReactMarkdown>{text}</ReactMarkdown>
                 </div>
             </div>
