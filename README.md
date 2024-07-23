@@ -5,7 +5,7 @@ CourseBazzar is an online platform that sells courses for programmers. Whether y
 ## Installation
 
 1. Make sure you have Node.js, npm, git and bun installed.
-2. Clone this repository: `git clone https://github.com/pythonmohseni/coursebazzar.git`
+2. Clone this repository: `git clone https://github.com/arsalanmohseni/coursebazzar.git`
 3. Navigate to the project directory: `cd coursebazzar`
 4. Install dependencies: `bun install` or `npm install`
 5. Start the development server: `bun run dev` or `npm run dev`
